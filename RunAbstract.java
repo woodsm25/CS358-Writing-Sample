@@ -17,7 +17,7 @@ public abstract class RunAbstract extends JFrame implements ActionListener {
     public RunAbstract() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setTitle("Die Rolling");
-        this.setSize(520, 500);
+        this.setSize(520, 550);
         this.setPreferredSize(this.getSize());
 
         // create top-level panel

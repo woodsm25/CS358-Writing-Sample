@@ -4,7 +4,7 @@ import java.awt.*;
 public class Run1 extends RunAbstract {
     protected Die myDie;
 
-    public static void main(String[] args) {
+    public static void main1() {
         new Run1().setVisible(true);
     }
     
@@ -25,7 +25,7 @@ public class Run1 extends RunAbstract {
 
     @Override
     protected void addDice() {
-        // create the die at 100,50
-        myDie = new Die(100, 50);
+        // create the die
+        myDie = new Die();
     }
 }
